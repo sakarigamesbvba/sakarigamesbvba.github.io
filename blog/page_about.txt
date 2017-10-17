@@ -1,0 +1,50 @@
+<txp:output_form form="head" />
+<body id="body-subpage">
+<div id="upper-part">
+	<div id="wrapper">
+		<div id="header">
+			<h1><a href="<txp:site_url />" title="<txp:sitename />"><txp:sitename /></a></h1>
+			<h2><txp:site_slogan /></h2>
+		</div>
+	</div>
+<txp:output_form form="navbar" />
+</div>
+<div id="lower-part" class="clearfix">
+	<div class="col560">
+		<txp:article_custom section="about" form="static_article" status="sticky" />
+	</div>
+	<div class="col400-box">
+		<txp:article_custom section="videos" form="youtube" limit="1" />
+	</div>
+	<div class="clear"><hr /></div>
+	<div class="col960">
+		<txp:output_form form="flickr" />
+	</div>	
+	<div class="col400">
+		<txp:article section="about" form="static_article" status="live" />
+	</div>
+	<div class="col560">
+		<div id="links">
+			<h3>Places Worth Visiting</h3>
+			<txp:linklist break="li" wraptag="ul" class="linklist" />
+		</div>
+		<div class="separate"><hr /></div>
+		<div class="col240">
+			<div id="categories">
+				<h3>Categories</h3>
+				<txp:category_list break="li" wraptag="ul" class="linklist" section="article" />
+			</div>
+			<div id="feeds">
+				<txp:output_form form="feeds" />
+			</div>
+		</div>
+		<div class="col320">
+			<div id="recent-articles">
+				<h3>Recent articles</h3>
+				<ul class="linklist"><txp:article_custom section="article" limit="5" form="articlelist" /></ul>
+				<txp:section link="1" title="1" wraptag="p" name="archive" class="to-right full-article" />
+			</div>
+		</div>
+	</div>
+</div>
+<txp:output_form form="footer" />
