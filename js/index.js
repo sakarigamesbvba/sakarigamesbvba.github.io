@@ -51,7 +51,7 @@ function resizeCanvas(){
 	canvasHeight = document.documentElement.clientHeight; 
 
 	canvas.setAttribute("width", canvasWidth);
-	canvas.setAttribute("height", canvasWidth/3.4);
+	canvas.setAttribute("height", canvasWidth/4);
 
-	start_y = canvasWidth/4;
+	start_y = canvasWidth/4.5;
 }
