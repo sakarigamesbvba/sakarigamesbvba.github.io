@@ -54,6 +54,7 @@ main {
 }
 
 .textblock {
+    letter-spacing: 1px;
   height: auto;
   width: 80%;
     color: white;
@@ -64,9 +65,13 @@ main {
   top: 0;
   right: 0;
   left: 0;
+      font-family: 'Raleway', sans-serif;
 }
 
 .partners {
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
   height: auto;
   width: 80%;
     text-align: center;
