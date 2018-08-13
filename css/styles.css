@@ -1,7 +1,7 @@
 main {
   position: relative;
   background: #000000;
-  height: 2000px;
+  height: 1000px;
 }
 
 .video-wrap {
@@ -42,7 +42,7 @@ main {
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 500;
   
 }
 
@@ -50,8 +50,36 @@ main {
 .content-overlay p {
   text-align: center;
   color: #f7941d;
-    z-index: 1000;
+    z-index: 500;
 }
+
+.textblock {
+  height: auto;
+  width: 80%;
+    color: white;
+  margin-left: 10%;
+  margin-right: 50%;
+    padding-right: 25%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.partners {
+  height: auto;
+  width: 80%;
+    text-align: center;
+    color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+
 
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
