@@ -59,9 +59,31 @@
                 </div>
 		<div class="thinline">
 	</div>
+      <br>
+      <div style="text-align:center"> 
+  <button onclick="playPause()">WATCH VIDEO</button> 
+  <br><br>
+  <video id="video1" width="560">
+    <source src="video/video.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+  </video>
+</div> 
+
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+    if (myVideo.paused) 
+        myVideo.play(); 
+    else 
+        myVideo.pause(); 
+} 
+
+</script> 
+      
     <p></p>
       <div class="partners">
-                      <p>Veemarkt 6, 2000 Antwerp, Belgium | +32 487 55 123 8 | info@automizer.eu</p>
+                      <p>Veemarkt 6, 2000 Antwerp, Belgium<br>+32 487 55 123 8 | info@automizer.eu</p>
 <span
  style="color: silver;">all right reserved Sakari Games 2018</span><br>
 </div>
