@@ -71,13 +71,11 @@ main {
 .partners {
     letter-spacing: 1px;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    display: block;
-    background-color: #f7941d;
+    font-size: 10px;
   height: auto;
   width: 100%;
     text-align: center;
-    color: black;
+    color: white;
   bottom: 0;
   top: 0;
   right: 0;

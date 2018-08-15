@@ -1,17 +1,6 @@
 <!doctype html>
 <html>
 <head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109711602-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-109711602-1');
-</script>
-
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +31,10 @@
 <meta name="msapplication-square70x70logo" content="icon/mstile-70x70.png">
 <meta name="msapplication-square150x150logo" content="icon/mstile-150x150.png">
 <meta name="msapplication-wide310x150logo" content="icon/mstile-310x150.png">
-<meta name="msapplication-square310x310logo" content="icon/mstile-310x310.png"></head>
+<meta name="msapplication-square310x310logo" content="icon/mstile-310x310.png">
+    
+    </head>
+    
 <body style="background-color:black;">
 <div id="navbar">
 		<a href="tel:0032487551238" target="_blank">CALL NOW</a>
@@ -67,18 +59,12 @@
                 </div>
 		<div class="thinline">
 	</div>
-    <p><a href="mailto:info@automizer.eu">info@automizer.eu</a></p>
-<!--
+    <p></p>
       <div class="partners">
-                      <p>See it in action<br>some more text</p>
-	       </div>
--->
-	<br>
-	<br>
-</small></small></small><span
- style="color: silver;">all right reserved Sakari Games 2018</span><small><br>
-<br>
-
+                      <p>Veemarkt 6, 2000 Antwerp, Belgium | +32 487 55 123 8 | info@automizer.eu</p>
+<span
+ style="color: silver;">all right reserved Sakari Games 2018</span><br>
+</div>
 </body>
 </html>
 
@@ -87,52 +73,9 @@
 <script type="text/javascript"
 </script>
   <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="backgroundVideo.js"></script>
   <script>
       
 
-    $(document).ready(function() {
-      $('#my-video').backgroundVideo();
-    });
-  </script><script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-36251023-1']);
-  _gaq.push(['_setDomainName', 'jqueryscript.net']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
 // When the user scrolls down 20px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
 
